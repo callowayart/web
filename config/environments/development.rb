@@ -27,7 +27,7 @@ CaCallowayart::Application.configure do
   # number of complex assets.
   config.assets.debug = true
   config.assets.compile = true
-  config.serve_static_assets = true
+  config.serve_static_files = true
 
   # tell varnish to cache content as well as inform proxy
   # and client to cash as well
