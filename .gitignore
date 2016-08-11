@@ -21,3 +21,6 @@
 *.log
 *.out
 db/dump/*
+
+# custom
+wp-config.php
