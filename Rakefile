@@ -1,6 +1,9 @@
-# Add your own tasks in files placed in lib/tasks ending in .rake,
-# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
+#!/usr/bin/env ruby
+# callowaylc@gmail
+# Bootstraps rake environment
 
-require File.expand_path('../config/application', __FILE__)
+# eager-load all lib
+Dir.glob('lib/*.rb').each { | r | import r }
 
-CaCallowayart::Application.load_tasks
+# eager-load all tasks
+Dir.glob('task/*.rake').each { | r | import r }

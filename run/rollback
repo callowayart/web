@@ -1,2 +1,0 @@
-#!/bin/sh
-mysql -h database -u callowayart -D wordpress_callowayart -p < $1

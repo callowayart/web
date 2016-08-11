@@ -1,9 +1,0 @@
-#!/bin/sh
-	
-DIR=${0%/*}
-
-$DIR/delete
-$DIR/create
-$DIR/settings
-$DIR/mapping
-
